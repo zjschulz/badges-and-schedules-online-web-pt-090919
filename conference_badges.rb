@@ -8,3 +8,10 @@ def batch_badge_creator(attendees)
   attendees.each {|i| array << "Hello, my name is #{i}."}
   array
 end
+
+def assign_rooms
+  array = []
+  counter = 0
+  attendees.each {|i| array << "Hello, my name is #{i}."}
+  array
+end
