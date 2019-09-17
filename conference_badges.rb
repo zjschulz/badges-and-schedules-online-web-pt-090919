@@ -12,6 +12,6 @@ end
 def assign_rooms
   array = []
   counter = 0
-  attendees.each {|i| array << "Hello, my name is #{i}."}
+  attendees.each {|i| array << "Hello, #{i}! You'll be assigned to room #{counter}!"}
   array
 end
