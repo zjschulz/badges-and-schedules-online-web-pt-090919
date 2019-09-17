@@ -10,7 +10,7 @@ def assign_rooms(attendees)
   array = attendees
   counter = 1
   array.each do |i|
-    puts 
+    puts "Hello, #{attende! You'll be assigned to room 1!"
     counter +=1
   end
 end
