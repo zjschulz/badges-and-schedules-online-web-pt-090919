@@ -21,4 +21,5 @@ end
 
 def printer(attendees)
   array = attendees
+  counter = 1
 end
