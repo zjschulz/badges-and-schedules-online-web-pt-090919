@@ -15,7 +15,7 @@ describe 'conference_badges' do
                ]}
 
   let(:room_assignments) {[
-                            "Hello, Edsger! You'll be assigned to room 1!",
+                            H"ello, Edsger! You'll be assigned to room 1!",
                             "Hello, Ada! You'll be assigned to room 2!",
                             "Hello, Charles! You'll be assigned to room 3!",
                             "Hello, Alan! You'll be assigned to room 4!",
