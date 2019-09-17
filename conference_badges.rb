@@ -20,10 +20,5 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  array = attendees
-  l = 1
-  array.each do |x|
-    print batch_badge_creator[x]
-  l += 1
-end
+  
 end
