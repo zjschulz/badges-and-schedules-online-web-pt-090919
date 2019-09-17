@@ -10,6 +10,7 @@ def assign_rooms(attendees)
   array = attendees
   counter = 1
   array.each do |i|
+  end
 end
 
 def printer()
