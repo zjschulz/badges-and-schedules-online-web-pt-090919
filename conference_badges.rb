@@ -23,5 +23,6 @@ def printer(attendees)
   array = attendees
   counter = 1
   array.each do |x|
+    count += 1
   end
 end
