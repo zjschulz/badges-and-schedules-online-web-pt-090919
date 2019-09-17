@@ -23,7 +23,7 @@ def printer(attendees)
   array = attendees
   counter = 1
   array.each do |x|
-    print batch_badge_creator[x]
+    print batch_badge_creator(x)
     counter += 1
   end
 end
