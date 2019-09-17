@@ -18,3 +18,13 @@ def assign_rooms(attendees)
   end
   array
 end
+
+def assign_rooms(attendees)
+  array = []
+  counter = 1
+  attendees.each do |i|
+    array << "Hello, #{i}! You'll be assigned to room #{counter}!"
+    counter +=1
+  end
+  array
+end
