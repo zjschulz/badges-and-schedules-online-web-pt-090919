@@ -22,6 +22,7 @@ end
 def printer(attendees)
   i = 0
   batch_badge_creator.each do |x|
-    
+  batch_badge_creator[i]
+  i += 1
   end
 end
