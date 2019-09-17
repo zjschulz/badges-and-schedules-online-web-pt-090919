@@ -7,7 +7,7 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  array = []
+  array = attendees
   counter = 1
   puts ""
 end
