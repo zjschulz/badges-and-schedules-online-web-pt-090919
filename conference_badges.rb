@@ -20,8 +20,7 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  printer_list = batch_badge_creator(attendees).concat
-  assign_rooms(attendees)
+  printer_list = batch_badge_creator(attendees).concatassign_rooms(attendees)
   printer_list.each do |line|
     puts line
   end
