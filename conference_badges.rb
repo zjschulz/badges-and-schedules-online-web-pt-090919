@@ -22,4 +22,5 @@ end
 def printer(attendees)
   array = attendees
   counter = 1
+  array.each 
 end
