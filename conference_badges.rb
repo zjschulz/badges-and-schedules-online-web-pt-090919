@@ -8,6 +8,7 @@ end
 
 def assign_rooms(attendees)
   array = attendees
+  
   counter = 1
   array.each do |i|
     "Hello, #{i}! You'll be assigned to room #{counter}!"
