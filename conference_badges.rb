@@ -22,6 +22,7 @@ end
 def printer(attendees)
   array = attendees
   l = 1
-  array.each 
+  array.each do |x|
   l += 1
+end
 end
