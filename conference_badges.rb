@@ -20,7 +20,8 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
+  array = attendees
   l = 1
-  batch_badge_creator[l]
+  array.each 
   l += 1
 end
