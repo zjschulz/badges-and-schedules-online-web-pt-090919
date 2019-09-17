@@ -9,7 +9,7 @@ end
 def assign_rooms(attendees)
   array = attendees
   counter = 1
-  puts ""
+  array.each 
 end
 
 def printer()
